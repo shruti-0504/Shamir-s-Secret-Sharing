@@ -12,7 +12,7 @@ f(x) = a₀ + a₁x + a₂x² + ... + aₖ₋₁xᵏ⁻¹
 You are provided with multiple (x, y) points (`shares`) encoded in JSON format. Your task is to **reconstruct the constant term `a₀` (the original secret)** using Lagrange Interpolation over a finite field.
 
 ## 📂 Project Structure
-
+```
 .
 ├── json.hpp # JSON library for C++ (nlohmann/json)
 ├── secretkey.cpp # Main C++ implementation using Lagrange Interpolation
@@ -20,7 +20,7 @@ You are provided with multiple (x, y) points (`shares`) encoded in JSON format. 
 ├── testcase1.json # Test case file with shares
 ├── testcase2.json # Another test case file
 ├── README.md # This file
-
+```
 
 ## ⚙️ How to Run
 
